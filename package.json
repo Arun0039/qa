@@ -1,0 +1,9 @@
+{
+  "name": "qa-road-trip-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev": "node server.js", "build": "vite build", "start": "node server.js --production", "preview": "npm run build && npm start"},
+  "dependencies": {"@vitejs/plugin-react": "latest", "vite": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest"},
+  "devDependencies": {}
+}
